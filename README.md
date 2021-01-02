@@ -9,6 +9,6 @@ OR
 #bash fdns.sh target.com resolvers.txt
 ```
 <h1 align="left">
-  <img src="static/fdns.png" alt="Dheerajmadhukar" width="700px"></a>
+  <img src="static/fdns-ss.png" alt="Dheerajmadhukar" width="700px"></a>
   <br>
 </h1>
