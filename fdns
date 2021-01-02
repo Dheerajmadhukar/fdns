@@ -1,0 +1,11 @@
+#!/bin/bash
+ip=$1
+input=$2
+while IFS= read -r line; do
+        name=$(host $ip $line | grep "domain name pointer" | awk '{print $NF}')
+        if [ -z "$name" ]; then
+                continue
+        else
+                echo "$ip resolve using DNS: $line"
+        fi
+done < "$input"
